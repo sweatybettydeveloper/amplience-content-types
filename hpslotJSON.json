@@ -24,7 +24,7 @@
           },
           {
             "properties": {
-              "contentArray": {
+              "contentType": {
                 "title":"Content",
                 "enum": [
                   "https://raw.githubusercontent.com/sweatybettydeveloper/amplience-content-types/master/SB-hero-top-banner.json"
