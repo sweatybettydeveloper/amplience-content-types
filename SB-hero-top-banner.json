@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": [<property order>],
+  "propertyOrder": [],
   "type": "object",
   "properties": {
     "imageDesktop": {
