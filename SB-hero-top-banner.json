@@ -88,7 +88,7 @@
       "title": "CTA",
       "description": "Select up to 2 CTAs",
       "items": {
-        "$ref": "https://development-website-sweatybetty.demandware.net/on/demandware.servlet/webdav/Sites/libraries/sweatybettylibrary/default/images/amplienceContentTypes/SB-cta.json"
+        "$ref": "https://raw.githubusercontent.com/sweatybettydeveloper/amplience-content-types/master/SB-cta.json"
       },
       "minItems": 0,
       "maxItems": 2
