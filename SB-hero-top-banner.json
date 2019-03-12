@@ -1,0 +1,117 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/banner.json",
+  "title": "Homepage Top Banner",
+  "description": "",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": [<property order>],
+  "type": "object",
+  "properties": {
+    "imageDesktop": {
+      "type": "object",
+      "title": "Image Desktop",
+      "description": "",
+      "allOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    },
+    "imageMobile": {
+      "type": "object",
+      "title": "Image Mobile",
+      "description": "",
+      "allOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    },
+    "imageOverlayDesktop": {
+      "type": "object",
+      "title": "Image Overlay Desktop",
+      "description": "",
+      "allOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    },
+    "imageOverlayMobile": {
+      "type": "object",
+      "title": "Image Overlay Mobile",
+      "description": "<property description>",
+      "allOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    },
+    "imageLink": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 0,
+      "format":"text",
+      "title": "Image Link",
+      "description": "$url('Product-Show','pid','ss19look1_supportwomen_sophie')$"
+    },
+    "desktopCopy": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 100,
+      "format":"text ",
+      "title": "Desktop Copy",
+      "description": ""
+    },
+    "mobileCopy": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 100,
+      "format":"text",
+      "title": "Mobile Copy",
+      "description": ""
+    },
+    "overlayBackgroundColor": {
+      "type": "string",
+      "minLength": 6,
+      "maxLength": 6,
+      "format":"text",
+      "title": "Overlay Background Color",
+      "description": "HEX Code without #"
+    },
+    "ctaArray": {
+      "type": "array",
+      "title": "CTA",
+      "description": "Select up to 2 CTAs",
+      "items": {
+        "$ref": "https://development-website-sweatybetty.demandware.net/on/demandware.servlet/webdav/Sites/libraries/sweatybettylibrary/default/images/amplienceContentTypes/SB-cta.json"
+      },
+      "minItems": 0,
+      "maxItems": 2
+    },
+    "verticalAlign": {
+      "type": "string",
+      "title": "Vertical Align",
+      "description": "",
+      "enum": [
+        "Top",
+        "Middle",
+        "Bottom"
+      ]
+    },
+    "horizontalAlign": {
+      "type": "string",
+      "title": "Horizontal Align",
+      "description": "",
+      "enum": [
+        "Left",
+        "Middle",
+        "Right"
+      ]
+    },
+  }
+}
