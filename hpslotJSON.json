@@ -11,13 +11,16 @@
   "propertyOrder": ["content"],
   "type": "object",
   "properties": {
-    "content": {
+    "slotcontent": {
       "type": "array",
       "minItems": 0,
       "maxItems": 10,
       "title": "Content",
       "description": "",
       "items": {
+        "type": "object",
+        "title": "Content List",
+        "description": "",
         "allOf": [
           {
             "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
@@ -25,7 +28,7 @@
           {
             "properties": {
               "contentType": {
-                "title":"Content",
+                "title": "Content types",
                 "enum": [
                   "https://raw.githubusercontent.com/sweatybettydeveloper/amplience-content-types/master/SB-hero-top-banner.json"
                 ]
