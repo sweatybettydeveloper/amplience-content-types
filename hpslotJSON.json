@@ -1,0 +1,39 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/banner.json",
+  "title": "Homepage Slot",
+  "description": "",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": ["content"],
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 10,
+      "title": "Content",
+      "description": "",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          {
+            "properties": {
+              "contentArray": {
+                "title":"Content",
+                "enum": [
+                  "https://raw.githubusercontent.com/sweatybettydeveloper/amplience-content-types/master/SB-hero-top-banner.json"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+  }
+}
