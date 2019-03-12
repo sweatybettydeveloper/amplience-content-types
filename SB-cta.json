@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://development-website-sweatybetty.demandware.net/on/demandware.servlet/webdav/Sites/libraries/sweatybettylibrary/default/images/amplienceContentTypes/SB-cta.json",
+  "id": "https://raw.githubusercontent.com/sweatybettydeveloper/amplience-content-types/master/SB-cta.json",
   "title": "CTA",
   "description": "",
   "allOf": [
