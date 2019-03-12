@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/banner.json",
+  "id": "https://raw.githubusercontent.com/sweatybettydeveloper/amplience-content-types/master/hpslotJSON.json",
   "title": "Homepage Slot",
   "description": "",
   "allOf": [
@@ -34,6 +34,6 @@
           }
         ]
       }
-    },
+    }
   }
 }
