@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/banner.json",
+  "id": "https://github.com/sweatybettydeveloper/amplience-content-types/blob/master/mainCTA.json",
   "title": "Site CTA",
   "description": "",
   "allOf": [
