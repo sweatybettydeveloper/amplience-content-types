@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://github.com/sweatybettydeveloper/amplience-content-types/blob/master/mainCTA.json",
+  "id": "https://raw.githubusercontent.com/sweatybettydeveloper/amplience-content-types/master/mainCTA.json",
   "title": "Site CTA",
   "description": "",
   "allOf": [
