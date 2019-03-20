@@ -1,0 +1,41 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://dev-solutions.s3.amazonaws.com/DynamicContentTypes/Accelerators/banner.json",
+  "title": "Site CTA",
+  "description": "",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "ctaText": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 33,
+      "format":"text",
+      "title": "CTA Text",
+      "description": ""
+    },
+    "ctaLink": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 100,
+      "format":"text",
+      "title": "CTA Link",
+      "description": "$url('Search-Show', 'cgid', 'jackets')$"
+    },
+    "ctaColor": {
+      "type": "string",
+      "title": "CTA Color",
+      "description": "Pick an option for the CTA color",
+      "enum": [
+        "BlackToClear",
+        "ClearToBlack",
+        "FluroToClear"
+      ]
+    }
+  },
+  "propertyOrder": ["ctaText", "ctaLink", "ctaColor"]
+}
